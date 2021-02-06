@@ -14,31 +14,12 @@ namespace Laboratorio0.Controllers
         // GET: Clientes
         public ActionResult Index()
         {
+            
             return View(Singleton.Instance.ClientesList);
         }
 
-        // GET: Clientes/NameSort
-        public ActionResult NameSort(string Nombre)
-        {
-            var Primeraletra = Singleton.Instance.ClientesList.Find(x => x.Nombre == Nombre);
-            return View(Primeraletra);
-
-
-        }
-        // POST: StudentsController/Namesort
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Namesort(String Nombre, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
+      
+       
 
 
         // GET: Clientes/Details/5
