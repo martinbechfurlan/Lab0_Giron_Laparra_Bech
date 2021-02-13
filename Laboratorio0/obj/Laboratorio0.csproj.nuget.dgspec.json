@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marti\\Desktop\\Lab0_Giron_Laparra_Bech\\Laboratorio0\\Laboratorio0.csproj": {}
+    "C:\\Users\\jbgir\\OneDrive\\Documentos\\URL Ingenieria-DESKTOP-GI7JK31\\2021\\Estructuras\\LABS\\Lab0_Giron_Laparra_Bech-master\\Laboratorio0\\Laboratorio0.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marti\\Desktop\\Lab0_Giron_Laparra_Bech\\Laboratorio0\\Laboratorio0.csproj": {
+    "C:\\Users\\jbgir\\OneDrive\\Documentos\\URL Ingenieria-DESKTOP-GI7JK31\\2021\\Estructuras\\LABS\\Lab0_Giron_Laparra_Bech-master\\Laboratorio0\\Laboratorio0.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marti\\Desktop\\Lab0_Giron_Laparra_Bech\\Laboratorio0\\Laboratorio0.csproj",
+        "projectUniqueName": "C:\\Users\\jbgir\\OneDrive\\Documentos\\URL Ingenieria-DESKTOP-GI7JK31\\2021\\Estructuras\\LABS\\Lab0_Giron_Laparra_Bech-master\\Laboratorio0\\Laboratorio0.csproj",
         "projectName": "Laboratorio0",
-        "projectPath": "C:\\Users\\marti\\Desktop\\Lab0_Giron_Laparra_Bech\\Laboratorio0\\Laboratorio0.csproj",
-        "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marti\\Desktop\\Lab0_Giron_Laparra_Bech\\Laboratorio0\\obj\\",
+        "projectPath": "C:\\Users\\jbgir\\OneDrive\\Documentos\\URL Ingenieria-DESKTOP-GI7JK31\\2021\\Estructuras\\LABS\\Lab0_Giron_Laparra_Bech-master\\Laboratorio0\\Laboratorio0.csproj",
+        "packagesPath": "C:\\Users\\jbgir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jbgir\\OneDrive\\Documentos\\URL Ingenieria-DESKTOP-GI7JK31\\2021\\Estructuras\\LABS\\Lab0_Giron_Laparra_Bech-master\\Laboratorio0\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jbgir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

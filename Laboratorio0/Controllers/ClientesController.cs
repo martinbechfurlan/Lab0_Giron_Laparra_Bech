@@ -10,8 +10,76 @@ namespace Laboratorio0.Controllers
 {
     public class ClientesController : Controller
     {
-        
+
         // GET: Clientes
+
+        public ActionResult BubbleSort_Nombre()
+        {
+
+            try
+            {
+                for (int i = 0; i < Singleton.Instance.ClientesList.Count; i++)
+                {
+
+
+                    for (int j = i + 1; j < Singleton.Instance.ClientesList.Count; j++)
+                    {
+                        var aux = new Models.Clientes ();
+                        Char Iniciali = Convert.ToChar(Singleton.Instance.ClientesList[i].Nombre.Substring(0, 1));  //Inicial del nombre comparado
+                        Char Inicialj = Convert.ToChar(Singleton.Instance.ClientesList[j].Nombre.Substring(0, 1));  //Inicial del nombre a comparar
+
+
+                        if (Iniciali > Inicialj)
+                        {
+                            aux = Singleton.Instance.ClientesList[i];
+                            Singleton.Instance.ClientesList[i] = Singleton.Instance.ClientesList[j];
+                            Singleton.Instance.ClientesList[j] = aux;
+                        }
+                    }
+                }
+                //BubbleSort(Singleton._instance.MestrosList);
+                return RedirectToAction(nameof(Index)); ;
+            }
+            catch
+            {
+                return View();
+            }
+            
+        }
+
+        public ActionResult BubbleSort_Apellidos()
+        {
+
+            try
+            {
+                for (int i = 0; i < Singleton.Instance.ClientesList.Count; i++)
+                {
+
+
+                    for (int j = i + 1; j < Singleton.Instance.ClientesList.Count; j++)
+                    {
+                        var aux = new Models.Clientes();
+                        Char Iniciali = Convert.ToChar(Singleton.Instance.ClientesList[i].Apellido.Substring(0, 1));  //Inicial del nombre comparado
+                        Char Inicialj = Convert.ToChar(Singleton.Instance.ClientesList[j].Apellido.Substring(0, 1));  //Inicial del nombre a comparar
+
+
+                        if (Iniciali > Inicialj)
+                        {
+                            aux = Singleton.Instance.ClientesList[i];
+                            Singleton.Instance.ClientesList[i] = Singleton.Instance.ClientesList[j];
+                            Singleton.Instance.ClientesList[j] = aux;
+                        }
+                    }
+                }
+                //BubbleSort(Singleton._instance.MestrosList);
+                return RedirectToAction(nameof(Index)); ;
+            }
+            catch
+            {
+                return View();
+            }
+
+        }
         public ActionResult Index()
         {
             
